@@ -1,0 +1,21 @@
+What is a Database?
+= It's a collection of database. 
+= Not just searching, also manipulating the database
+= 
+
+PostgreSQL, MySQl and otheres are just database management system. 
+
+What is a Database?
+A structured set of computerized data with an acessible interface.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+What is the difference between MySQl and SQL?
+- SQL is a structured language query. we use to "talk" to our database.
+- So when we work with mySql we actualy writting SQL,
+: SELECT * FROM Users where name = 'yuvaraj';   
+
+
+
+
+
