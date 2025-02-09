@@ -28,3 +28,17 @@ create table cats3 (
 )
 
 -- adding a primary key
+create table unique_cats{
+    id INT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+}
+
+-- implementing auto-increment
+
+create table unique_cats{
+    id INT AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    primary key (id)
+}
