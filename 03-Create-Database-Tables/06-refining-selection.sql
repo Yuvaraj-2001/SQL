@@ -12,4 +12,12 @@ SELECT * FROM books ORDER BY author_lname;
 SELECT book_id, author_fname, author_lname, pages
 FROM books ORDER BY author_lname, author_fname;
 
+-- LIMIT = limiting the number of results
+select *  from books limit 5;
+select *  from books limit 5, 5; // gives next 5
+select *  from books limit 10, 5;  // the next
+
+-- LIMIT and ORDER BY
+SELECT title, released_year FROM books 
+ORDER BY released_year DESC LIMIT 10,1;
 
